@@ -1,0 +1,9 @@
+version: '3.0'
+
+services:
+  eeeise_c2:
+    container_name: 'eeeise_c2'
+    build: .
+    image: 'ahntaejin/eeeise:latest'
+    ports:
+      - '80:80'

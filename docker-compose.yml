@@ -4,6 +4,8 @@ services:
   eeeise_c2:
     container_name: 'eeeise_c2'
     build: .
-    image: 'ahntaejin/eeeise:latest'
+    image: ahntaejin/eeeise
+  production:
+    image: ahntaejin/eeeise:4.0
     ports:
       - '80:80'

@@ -4,8 +4,6 @@ services:
   eeeise_c2:
     container_name: 'eeeise_c2'
     build: .
-    image: ${DOCKER_USER_ID}
-  production:
-    image: ${DOCKER_USER_ID}
+    image: xhrisxavis23/eeeise:latest
     ports:
       - '80:80'
